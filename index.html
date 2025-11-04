@@ -13,7 +13,6 @@
 <body>
   <main>
     <nav class="tabs" role="tablist" aria-label="Main tabs">
-
       <!-- Homework 4 -->
       <button type="button" class="tab-btn" data-target="hwk4" role="tab">HWK 4. Desc</button>
       <button type="button" class="tab-btn" data-target="tab2" data-sketch="sk2" role="tab">HWK 4. A</button>
@@ -24,11 +23,6 @@
       <button type="button" class="tab-btn" data-target="tab5" data-sketch="sk5" role="tab">HWK5</button>
     </nav>
 
-    <!-- Lab 1: Homepage -->
-    <section id="tab1" class="tab-content active" role="tabpanel">
-      <div id="sketch-container-sk1" class="sketch-container"></div>
-    </section>
-
     <!-- Homework 4: Description -->
     <section id="hwk4" class="tab-content" role="tabpanel">
       <div id="sketch-container-hwk4" class="sketch-container">
@@ -37,198 +31,106 @@
       </div>
     </section>
 
-    <!-- Homework 4: Sketch 1 -->
+    <!-- Homework 4: Sketches -->
     <section id="tab2" class="tab-content" role="tabpanel">
       <div id="sketch-container-sk2" class="sketch-container"></div>
-      <div id="sketch-drawing-sk2" class="sketch-evolution">
-        <!-- Project narrative template: replace the text below with your own narrative -->
-        <div class="sketch-narrative" aria-labelledby="sk2-narrative-title">
-          <h3 id="sk2-narrative-title">Focus Clock Narrative</h3>
-          <p>
-            <strong>Context:</strong> This sketch represents a “focus clock” designed to help users visualize their
-            concentration time in an engaging and calming way. It aims to support students or remote workers who want to
-            manage their study or work sessions effectively without distractions.
-          </p>
-          <p>
-            <strong>Design decisions:</strong> I used a circular layout to symbolize the continuous flow of time and
-            progress. The color gradually shifts from bright green to warm orange as time passes, signaling both
-            calmness and accomplishment. Minimal text and gentle animations keep the interface simple and
-            focus-friendly. I chose these elements to reduce cognitive load and maintain user attention.
-          </p>
-          <p>
-            <strong>Future work:</strong> I plan to add features like automatic break reminders, sound or haptic
-            feedback for session transitions, and customizable color themes to match different moods or time of day.
-          </p>
-        </div>
-
+      <div class="sketch-narrative">
+        <h3>Focus Clock Narrative</h3>
+        <p><strong>Context:</strong> This sketch represents a “focus clock” designed to help users visualize their concentration time in an engaging and calming way. It supports students or remote workers who want to manage study sessions effectively.</p>
+        <p><strong>Design decisions:</strong> I used a circular layout to symbolize continuous time. The color gradually shifts from bright green to orange to show progress. Minimal text and gentle animations maintain focus and calmness.</p>
+        <p><strong>Future work:</strong> I plan to add features like automatic break reminders, haptic feedback, and customizable color themes.</p>
       </div>
     </section>
 
-
-
-    <!-- Homework 4: Sketch 1 -->
     <section id="tab3" class="tab-content" role="tabpanel">
       <div id="sketch-container-sk3" class="sketch-container"></div>
-      <div id="sketch-drawing-sk2" class="sketch-evolution">
-        <!-- Project narrative template: replace the text below with your own narrative -->
-        <div class="sketch-narrative" aria-labelledby="sk2-narrative-title">
-          <h3 id="sk2-narrative-title">Tree Growth Clock Narrative</h3>
-          <p>
-            <strong>Context:</strong> This sketch visualizes the passing of time through the gradual growth of a tree.
-            Each minute or hour of focus time helps the tree grow taller or sprout new leaves, turning the act of time
-            tracking into something more organic and rewarding.
-          </p>
-          <p>
-            <strong>Who is this for?</strong> It’s designed for students or anyone practicing mindful productivity who
-            wants a calm, nature-inspired alternative to traditional timers. The visual metaphor of growth encourages
-            users to stay focused and see their effort “grow” over time.
-          </p>
-          <p>
-            <strong>Design decisions:</strong> I used a vertical layout to mimic natural tree growth, with simple
-            animations showing leaves appearing as time progresses. The colors are kept basic — green for leaves, brown
-            for the trunk, and a light background — to keep the focus on the growth itself. Each new hour triggers the
-            tree to restart its growth cycle, symbolizing a fresh beginning and helping users visualize the passage of
-            time more clearly.
-          <p>
-            <strong>Future work:</strong> In the future, I’d like to add seasonal changes (like flowers or falling
-            leaves) and data tracking so users can see how their “forest” grows across multiple focus sessions.
-          </p>
-        </div>
-
+      <div class="sketch-narrative">
+        <h3>Tree Growth Clock Narrative</h3>
+        <p><strong>Context:</strong> This sketch visualizes time through tree growth. Each hour helps the tree grow taller, turning time tracking into something organic and rewarding.</p>
+        <p><strong>Who is this for?</strong> Designed for students or anyone practicing mindful productivity who prefers a nature-inspired metaphor.</p>
+        <p><strong>Design decisions:</strong> Vertical layout mimics growth, with basic colors — green leaves, brown trunk, light background. Every hour restarts growth, symbolizing renewal.</p>
+        <p><strong>Future work:</strong> Add seasonal changes and data tracking to build a personal “forest” of focus sessions.</p>
       </div>
     </section>
 
-
-
-    <!-- Homework 4: Sketch 1 -->
     <section id="tab4" class="tab-content" role="tabpanel">
       <div id="sketch-container-sk4" class="sketch-container"></div>
-      <div id="sketch-drawing-sk2" class="sketch-evolution">
-        <!-- Project narrative template: replace the text below with your own narrative -->
-        <div class="sketch-narrative" aria-labelledby="sk2-narrative-title">
-          <h3 id="sk3-narrative-title">Notebook Clock Narrative</h3>
-          <p>
-            <strong>Context:</strong> This sketch visualizes time through a notebook that flips pages as focus time
-            passes. Each page turn represents progress, encouraging users to view their time as meaningful work
-            completed rather than just minutes spent.
-          </p>
-          <p>
-            <strong>Who is this for?</strong> It’s designed for students, writers, or anyone who enjoys journaling or
-            studying. The notebook metaphor connects the idea of learning and time management, making the experience
-            more personal and relatable.
-          </p>
-          <p>
-            <strong>Design decisions:</strong> I used a horizontal layout to mimic an open notebook, with soft beige and
-            brown tones to create a warm and familiar atmosphere. Instead of page-flipping, the notebook fills gradually
-            with subtle marks or lines as time passes, representing progress in a calm, visual way. I kept the layout
-            simple and uncluttered to maintain focus and reduce distraction.
-          </p>
-          <p>
-            <strong>Future work:</strong> I plan to add a page-flipping animation so that each time segment turns a new
-            page, giving a stronger sense of progress. I’d also like to include interactive notes or doodles on each
-            page to reflect different sessions and maybe add a daily summary — turning the clock into both a time
-            tracker and a digital journal.
-        </div>
+      <div class="sketch-narrative">
+        <h3>Notebook Clock Narrative</h3>
+        <p><strong>Context:</strong> This clock flips notebook pages as focus time passes, turning time into a visible record of effort and progress.</p>
+        <p><strong>Who is this for?</strong> Students, writers, or anyone who enjoys journaling or studying. The notebook metaphor connects time management with personal reflection.</p>
+        <p><strong>Design decisions:</strong> Horizontal layout mimics an open notebook. Beige and brown tones create warmth and familiarity. Lines fill gradually to represent progress calmly and clearly.</p>
+        <p><strong>Future work:</strong> Add page-flipping animations and interactive notes to turn the clock into a digital journal.</p>
 
-        <h3>Sketch evolution</h3>
-        <p class="small-note">Replace <b>these images</b> with your own sketch evolution images.</p>
+        <h3>Sketch Evolution</h3>
         <figure>
-          <figcaption>
-            <strong>Step 1 —</strong> Initial idea of a notebook page filling with lines as time passes.
-            Each new line represents a short time segment, showing progress in a subtle and calm way.
-
-            <em>Peer comment:</em> “I like how it feels like actual handwriting — it gives a sense of studying quietly.
-            Maybe add some visible headings to make it feel more like a real notebook.”
-          </figcaption>
+          <figcaption><strong>Step 1 —</strong> Basic page-filling idea. <em>Peer comment:</em> “Feels like handwriting, add headings.”</figcaption>
           <img src="images/sk4-evolution-1.jpg" alt="Sketch #A - step 1" />
-
         </figure>
         <figure>
-          <figcaption>
-            <strong>Step 2 —</strong> Added headings and light structure, such as “Chapter 1: Intro to Data,” to make
-            each page look more personalized.
-            <em>Peer comment:</em> “The added text makes it more relatable to students. It’d be cool if the text or page
-            updated automatically every hour to show a new ‘chapter.’”
-          </figcaption>
+          <figcaption><strong>Step 2 —</strong> Added headings and chapters. <em>Peer comment:</em> “Looks more like a real notebook.”</figcaption>
           <img src="images/sk4-evolution-2.jpg" alt="Sketch #A - step 2" />
-
         </figure>
         <figure>
-          <figcaption>
-            <strong>Step 3 —</strong> Final version titled <em>Time Notebook</em>, featuring a typing-like interaction
-            where lines appear gradually as time progresses.
-            This mimics the feeling of writing notes in real time, connecting time tracking with focus and journaling.
-            <em>Peer comment:</em> “The typing effect makes it feel alive — like the notebook is documenting your study
-            session for you. It fits the calm, reflective theme really well.”
-          </figcaption>
+          <figcaption><strong>Step 3 —</strong> Final typing-like interaction. <em>Peer comment:</em> “Typing makes it feel alive.”</figcaption>
           <img src="images/sk4-evolution-3.jpg" alt="Sketch #A - step 3" />
-
         </figure>
       </div>
     </section>
-
-
 
     <!-- Homework 5: Narrative Visualization -->
     <section id="tab5" class="tab-content" role="tabpanel">
       <div id="sketch5" class="sketch-container"></div>
+      <div class="sketch-narrative">
+        <h3>Fuel vs Burn: Are Your Meals Helping or Hurting?</h3>
+        <p><strong>Dataset:</strong>
+          This visualization uses data from
+          <a href="https://www.kaggle.com/datasets/jockeroika/life-style-data/data" target="_blank">
+            Life Style Data (Kaggle)</a>,
+          which contains information on individuals’ diet types, daily calorie intake, activity levels, and health indicators
+          such as BMI and weight changes.
+        </p>
+        
+        <p><strong>Why this dataset:</strong>
+          I chose this dataset because it directly connects to the theme of “Fuel vs Burn.” It provides measurable variables
+          like calories consumed, calories burned, and diet type — perfect for comparing energy balance across different eating
+          habits.
+          The dataset also represents relatable, real-world behaviors that people can personally connect with, making the
+          narrative both informative and self-reflective.
+          Using this data allows the visualization to ground the metaphor (plates balancing intake and burn) in actual evidence
+          rather than abstract examples, ensuring both clarity and credibility.
+        </p>
 
-      <div id="sketch-drawing-sk5" class="sketch-evolution">
-        <div class="sketch-narrative" aria-labelledby="sk5-narrative-title">
-          <h3 id="sk5-narrative-title">Fuel vs Burn: Are Your Meals Helping or Hurting?</h3>
 
-          <p>
-            <strong>Context:</strong> This narrative visualization explores how different diet types balance calorie
-            intake (“fuel”) and calorie burn (“burn”) using an intuitive metaphor — a set of plates. The project aims to
-            help fitness enthusiasts and everyday users quickly grasp which diets maintain balance and which lean toward
-            excess. Each plate represents one diet type, comparing average calories consumed versus calories burned.
-          </p>
+        <p><strong>Context:</strong> This narrative visualization explores how different diet types balance calorie intake (“fuel”) and calorie burn (“burn”) using an intuitive metaphor — a set of plates. Each plate represents one diet type, comparing average calories consumed versus calories burned.</p>
 
-          <p>
-            <strong>Why this story:</strong> Many people track calories, but raw numbers can feel abstract. I wanted to
-            make energy balance feel tangible — as if each diet were a “plate” trying to stay level. The idea invites
-            the audience to think about daily habits as a visual balance between nourishment and activity, not just data
-            points. The question, “Are your meals helping or hurting?” encourages reflection rather than judgment.
-          </p>
+        <p><strong>Why this story:</strong> People often track calories, but raw numbers feel abstract. This metaphor turns energy balance into a tangible visual — like a plate that tips toward health or excess. The question “Are your meals helping or hurting?” encourages reflection without blame.</p>
 
-          <p>
-            <strong>Design decisions:</strong> I chose a <em>static balancing plate metaphor</em> for clarity and
-            hierarchy. The viewer first notices the title and contrasting red/blue colors, then compares how high or low
-            each plate sits. Red represents calories consumed, blue represents calories burned, and plate height shows
-            the degree of energy surplus or balance. Motion was intentionally removed to improve clarity, leaving a
-            clean and stable composition. Shadows and subtle scaling emphasize differences without distorting the data.
-          </p>
+        <p><strong>User-driven vs Author-driven:</strong> This visualization is mainly <em>author-driven</em> because it presents a clear message comparing diets and calorie balance. However, it also includes <em>user-driven</em> aspects by allowing viewers to compare and interpret which diets seem balanced or excessive. This aligns with lecture content about balancing narrative control with user exploration.</p>
 
-          <p>
-            <strong>Hierarchy and clarity:</strong> Visual hierarchy directs attention in three stages:
-          <ol>
-            <li><b>Title</b> — frames the question (“Fuel vs Burn”) and establishes the story.</li>
-            <li><b>Plates</b> — serve as the central metaphor; height and color communicate the main insight.</li>
-            <li><b>Caption and legend</b> — clarify interpretation and ensure transparency about what each color and
-              position means.</li>
-          </ol>
-          Every element supports comprehension — no decorative marks were included. The caption explicitly explains the
-          visual encoding so the audience can read it ethically and confidently.
-          </p>
+        <p><strong>Design decisions:</strong> I used a <em>balancing plate metaphor</em> for clarity and hierarchy. Red shows calories consumed, blue shows calories burned, and plate height indicates energy surplus or balance. The static format avoids distraction, emphasizing contrast and simplicity.</p>
 
-          <p>
-            <strong>Feedback and refinement:</strong> Early peer feedback noted that the previous tree design was
-            unclear and the animated tilt felt distracting. I refined the visualization by switching to a stable,
-            metaphorical plate that immediately communicates balance and imbalance. The static layout made differences
-            more noticeable and supported easier comparison between diet types.
-          </p>
+        <p><strong>Hierarchy and clarity:</strong> Visual hierarchy guides attention:
+        <ol>
+          <li><b>Title</b> — frames the question and sets tone.</li>
+          <li><b>Plates</b> — encode key comparison (intake vs burn).</li>
+          <li><b>Caption & legend</b> — ensure correct interpretation.</li>
+        </ol>
+        Every element is purposeful, enhancing clarity and memorability.</p>
 
-          <p>
-            <strong>Design principles applied:</strong> The final composition reflects hierarchy (through scale and
-            layout), clarity (through minimal marks and consistent color encoding), and memorability (through a concrete
-            metaphor). The design follows ethical visualization practices by avoiding misleading axes or exaggeration,
-            while still emphasizing meaningful differences.
-          </p>
-        </div>
+        <p><strong>Feedback and refinement:</strong> Early sketches used a tree metaphor, but peers said it lacked clear data and meal connection. I refined it into a “plate” visualization for stronger narrative alignment and immediate recognition. The simpler metaphor improved clarity and comparison.</p>
 
+        <p><strong>User interviews:</strong></p>
+        <ul>
+          <li><b>Aurora:</b> Understood the tree as calorie balance but wanted visible data labels and color distinction. → Added numeric calorie labels and consistent red/blue colors for clarity.</li>
+          <li><b>Ella:</b> Found the tree metaphor confusing for a food story. → Inspired the shift to plates, aligning visuals with the “meal” concept and improving memorability.</li>
+        </ul>
+
+        <p><strong>Design principles applied:</strong> The design emphasizes <b>clarity</b> (minimal marks, clear labels), <b>hierarchy</b> (title → plate → caption), and <b>memorability</b> (concrete metaphor). It follows ethical visualization practices by presenting balanced comparisons without exaggeration.</p>
       </div>
-    </section>
 
+      
+    </section>
   </main>
 
   <script src="script.js"></script>
